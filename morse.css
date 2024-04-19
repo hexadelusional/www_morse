@@ -1,0 +1,183 @@
+*{
+    color: black;
+    background-color: #ACC27A;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 40px;
+}
+
+h1{
+  color: #31572C;
+  font-size: 80px;
+}
+.space{
+  margin-bottom: 10px;
+}
+
+::placeholder{
+  color: #ECF39E;
+  opacity: 1;
+}
+
+#morsify{
+  color: #31572C;
+  border: 2px solid #90A955;
+  border-radius: 6px;
+  font-size: 30px;
+  padding: 20px;
+  outline: none;
+  /* position*/
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#morsify:focus{
+  border: 2px solid #31572C;
+}
+
+
+#b1{
+  width:200px;
+  height: 80px;
+  color: #132A13;
+  background-color: #4F772D;
+  border: none;
+  border-radius: 16px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+
+#b1:hover{
+  background-color: #90A955;
+  color: #ECF39E;
+  transition: .3s;
+}
+
+#answer1{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #132A13;
+}
+
+
+
+#demorsify{
+  color: #31572C;
+  border: 2px solid #90A955;
+  border-radius: 6px;
+  font-size: 30px;
+  padding: 20px;
+  outline: none;
+  /* position*/
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#demorsify:focus{
+  border: 2px solid #31572C;
+}
+
+#b2{
+  width:200px;
+  height: 80px;
+  color: #132A13;
+  background-color: #4F772D;
+  border: none;
+  border-radius: 16px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+
+#b2:hover{
+  background-color: #90A955;
+  color: #ECF39E;
+  transition: .3s;
+}
+
+#answer2{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #132A13;
+}
+
+
+
+.container {
+  max-width: 1536px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 786px) {
+  h1{
+    font-size: 65px;
+  }
+  #morsify, #demorsify{
+  font-size: 25px;
+  padding: 15px;
+  width: 400px;
+  }
+  #b1, #b2{
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
